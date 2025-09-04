@@ -57,17 +57,20 @@ The dataset used is `matches.csv`, which contains IPL 2025 match-level details.
 
 ---
 
-## Sample Visuals
+## Sample Visuals  
 
-**Team win distribution (barplot)** <img width="600" src="https://github.com/user-attachments/assets/54320760-53f9-4f21-bbd4-07afd0922659" />
+### Team win distribution (barplot)  
+<img width="600" src="https://github.com/user-attachments/assets/54320760-53f9-4f21-bbd4-07afd0922659" />  
 
-**Toss decision trends (countplot)** <img width="600" src="https://github.com/user-attachments/assets/fed68cc9-5789-4c15-b140-4791d4ca9364" />
+### Toss decision trends (countplot)  
+<img width="600" src="https://github.com/user-attachments/assets/fed68cc9-5789-4c15-b140-4791d4ca9364" />  
 
-**Top scorers and bowlers (bar charts)** <img width="600" src="https://github.com/user-attachments/assets/f526f1e3-4271-463f-9e8a-b481222c0c80" />
+### Top scorers and bowlers (bar charts)  
+<img width="600" src="https://github.com/user-attachments/assets/f526f1e3-4271-463f-9e8a-b481222c0c80" />  
 
-**Venue popularity (horizontal bar chart)** <img width="600" src="https://github.com/user-attachments/assets/085ff982-0782-4c2e-b5d2-0f7e4cd486df" />
+### Venue popularity (horizontal bar chart)  
+<img width="600" src="https://github.com/user-attachments/assets/085ff982-0782-4c2e-b5d2-0f7e4cd486df" />  
 
----
 
 ## How to Run
 
