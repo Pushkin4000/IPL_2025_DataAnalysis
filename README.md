@@ -1,4 +1,4 @@
-IPL 2025 Data Analysis
+#IPL 2025 Data Analysis
 Overview
 
 This project analyzes the IPL 2025 dataset (matches.csv) to uncover insights about team performances, toss decisions, top players, and match statistics. The analysis is performed in Python using Pandas, NumPy, Matplotlib, and Seaborn.
