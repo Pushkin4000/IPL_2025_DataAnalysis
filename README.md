@@ -1,92 +1,106 @@
-#IPL 2025 Data Analysis
-Overview
+# IPL 2025 Data Analysis
 
-This project analyzes the IPL 2025 dataset (matches.csv) to uncover insights about team performances, toss decisions, top players, and match statistics. The analysis is performed in Python using Pandas, NumPy, Matplotlib, and Seaborn.
+## Overview
 
-The goal is to explore the dataset, clean it for inconsistencies, and visualize trends such as match-winning teams, best players, and venues with the most matches.
+This project analyzes the **IPL 2025 dataset (`matches.csv`)** to uncover insights about team performances, toss decisions, top players, and match statistics.
 
-Technologies Used
+The analysis is performed in **Python** using **Pandas, NumPy, Matplotlib, and Seaborn**.
 
-Python 3
-Pandas – Data handling and cleaning
-NumPy – Numerical operations
-Matplotlib & Seaborn – Data visualization
+The goal is to:
 
-Dataset
+* Clean the dataset and handle inconsistencies
+* Explore team and player performance
+* Visualize trends such as match-winning teams, best players, and most frequent venues
 
-The dataset used is matches.csv, which contains IPL 2025 match-level details.
+---
 
-Key columns include:
-match_id – Unique identifier for each match
-match_winner – Team that won the match
-toss_winner, toss_decision – Toss details
-player_of_the_match – Man of the Match
-top_scorer, highscore – Batting statistics
-best_bowling, best_bowling_figure – Bowling performance
-venue – Venue of the match
-Columns wb_runs and wb_wickets were dropped due to excessive missing values.
+## Technologies Used
 
-Key Analyses & Visualizations
+* Python 3
+* Pandas – Data handling and cleaning
+* NumPy – Numerical operations
+* Matplotlib & Seaborn – Data visualization
 
-1.Most Matches Won by Teams
-2.Bar chart showing which teams secured the highest number of wins.
-3.Toss Decision Trends
-4.Analysis of batting vs fielding choice after winning the toss.
-5.Impact of Toss on Match Result
-6.Percentage of matches where toss winners also won the game.
-7.Top Man of the Match Award Winners
-8.Top 10 players who received the most Man of the Match awards.
-9.Top Scorers
-10.Highest aggregate runs by players.
-11.Best Bowling Figures
-12.Players with the best bowling records in terms of wickets taken.
-13.Most Popular Venues
-14.Venues with the highest number of matches played.
-15.Record Performances
-16.Player with the highest individual score.
-17.Bowler with the best bowling figure.
+---
 
-Sample Visuals
+## Dataset
 
-Team win distribution (barplot)
-<img width="1238" height="926" alt="image" src="https://github.com/user-attachments/assets/54320760-53f9-4f21-bbd4-07afd0922659" />
+The dataset used is `matches.csv`, which contains IPL 2025 match-level details.
 
+**Key columns include:**
 
-Toss decision trends (countplot)
-<img width="1090" height="841" alt="image" src="https://github.com/user-attachments/assets/fed68cc9-5789-4c15-b140-4791d4ca9364" />
+* `match_id` – Unique identifier for each match
+* `match_winner` – Team that won the match
+* `toss_winner`, `toss_decision` – Toss details
+* `player_of_the_match` – Man of the Match
+* `top_scorer`, `highscore` – Batting statistics
+* `best_bowling`, `best_bowling_figure` – Bowling performance
+* `venue` – Venue of the match
 
+> Note: Columns `wb_runs` and `wb_wickets` were dropped due to excessive missing values.
 
-Top scorers and bowlers (bar charts)
-<img width="1241" height="821" alt="image" src="https://github.com/user-attachments/assets/f526f1e3-4271-463f-9e8a-b481222c0c80" />
+---
 
+## Key Analyses & Visualizations
 
-Venue popularity (horizontal bar chart)
-<img width="1508" height="818" alt="image" src="https://github.com/user-attachments/assets/085ff982-0782-4c2e-b5d2-0f7e4cd486df" />
+1. **Most Matches Won by Teams** – Bar chart showing which teams secured the highest number of wins
+2. **Toss Decision Trends** – Analysis of batting vs fielding choices after winning the toss
+3. **Impact of Toss on Match Result** – Percentage of matches where toss winners also won the game
+4. **Top Man of the Match Award Winners** – Top 10 players with the most awards
+5. **Top Scorers** – Highest aggregate runs by players
+6. **Best Bowling Figures** – Top 10 players with the best bowling performances
+7. **Most Popular Venues** – Venues with the highest number of matches played
+8. **Record Performances**
 
+   * Highest individual batting score
+   * Best bowling figure
 
-How to Run
+---
 
-Clone the repository:
+## Sample Visuals
 
-git clone https://github.com/Pushkin4000/IPL_2025_DataAnalysis.git
+**Team win distribution (barplot)** <img width="600" src="https://github.com/user-attachments/assets/54320760-53f9-4f21-bbd4-07afd0922659" />
 
+**Toss decision trends (countplot)** <img width="600" src="https://github.com/user-attachments/assets/fed68cc9-5789-4c15-b140-4791d4ca9364" />
 
-Navigate to the project folder:
+**Top scorers and bowlers (bar charts)** <img width="600" src="https://github.com/user-attachments/assets/f526f1e3-4271-463f-9e8a-b481222c0c80" />
 
-cd IPL_2025_DataAnalysis
+**Venue popularity (horizontal bar chart)** <img width="600" src="https://github.com/user-attachments/assets/085ff982-0782-4c2e-b5d2-0f7e4cd486df" />
 
+---
 
-Install required libraries:
+## How to Run
 
-pip install pandas numpy matplotlib seaborn
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/Pushkin4000/IPL_2025_DataAnalysis.git
+   ```
 
-Run the Jupyter Notebook:
+2. Navigate to the project folder:
 
-jupyter notebook IPL_2025.ipynb
+   ```bash
+   cd IPL_2025_DataAnalysis
+   ```
 
-Future Improvements to be added
+3. Install required libraries:
 
-1.Add interactive dashboards using Plotly/Streamlit.
-2.Expand to player-wise career statistics.
-3.Build a predictive model for match outcomes.
+   ```bash
+   pip install pandas numpy matplotlib seaborn
+   ```
+
+4. Run the Jupyter Notebook:
+
+   ```bash
+   jupyter notebook IPL_2025.ipynb
+   ```
+
+---
+
+## Future Improvements
+
+* Add interactive dashboards using Plotly/Streamlit
+* Expand to player-wise career statistics
+* Build a predictive model for match outcomes
+
+---
